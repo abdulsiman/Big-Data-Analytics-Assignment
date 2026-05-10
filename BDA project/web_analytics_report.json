@@ -1,0 +1,88 @@
+{
+  "generated_at": "2026-04-30T21:56:34.939162",
+  "summary": {
+    "total_complaints": 500,
+    "total_sensors": 529323,
+    "date_range": {
+      "start": "2022-10-17 09:18:17.134000+08:00",
+      "end": "2023-06-12 11:30:50.380000+08:00"
+    },
+    "avg_noise_level_db": 77.20051711290503,
+    "max_noise_level_db": 84.93440983837293
+  },
+  "category_distribution": {
+    "construction": 157,
+    "traffic": 123,
+    "neighbors": 90,
+    "entertainment": 62,
+    "industrial": 58,
+    "animals": 10
+  },
+  "hourly_distribution": {
+    "0": 14,
+    "1": 3,
+    "2": 7,
+    "3": 3,
+    "4": 2,
+    "5": 6,
+    "6": 7,
+    "7": 8,
+    "8": 16,
+    "9": 28,
+    "10": 29,
+    "11": 23,
+    "12": 28,
+    "13": 16,
+    "14": 21,
+    "15": 32,
+    "16": 27,
+    "17": 27,
+    "18": 48,
+    "19": 33,
+    "20": 29,
+    "21": 29,
+    "22": 37,
+    "23": 27
+  },
+  "status_distribution": {
+    "Open": 157,
+    "Resolved": 142,
+    "Closed": 102,
+    "In Progress": 99
+  },
+  "top_complaint_zones": {
+    "nan_nan": 498,
+    "5.0_5.0": 1,
+    "3.0_4.0": 1
+  },
+  "insights": [
+    {
+      "type": "Geographic Hotspot",
+      "priority": "High",
+      "description": "Top 5 zones account for 100.0% of complaints",
+      "recommendation": "Deploy additional noise monitoring sensors in zones: nan_nan, 5.0_5.0, 3.0_4.0",
+      "avg_noise_db": 77.2
+    },
+    {
+      "type": "Temporal Pattern",
+      "priority": "Medium",
+      "description": "Peak complaint hour is 18:00 with 48 complaints",
+      "recommendation": "Increase noise patrols during hours 17-19",
+      "peak_hour": "18"
+    },
+    {
+      "type": "Complaint Category",
+      "priority": "High",
+      "description": "Construction complaints represent 31.4% of total",
+      "recommendation": "Targeted intervention for construction noise sources",
+      "category": "construction"
+    },
+    {
+      "type": "Response Efficiency",
+      "priority": "High",
+      "description": "51.2% of complaints are unresolved",
+      "recommendation": "Review complaint resolution workflow and allocate more resources",
+      "unresolved_count": 256
+    }
+  ]
+}
